@@ -9,4 +9,5 @@ Find abuse filter accounts across Wikimedia wikis. It is handy for reports and s
 
    usage
    api
+   limitations
    changelog
