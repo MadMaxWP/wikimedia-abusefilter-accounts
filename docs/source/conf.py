@@ -24,4 +24,12 @@ autodoc_member_order = 'bysource'
 autodoc_typehints = 'description'
 autodoc_mock_imports = ['toolforge']
 
+html_context = {
+    "display_github": True,
+    "github_user": "MadMaxWP",
+    "github_repo": "wikimedia-abusefilter-accounts",
+    "github_version": "main",
+    "conf_py_path": "/docs/source/",
+}
+
 html_theme = 'sphinx_rtd_theme'
