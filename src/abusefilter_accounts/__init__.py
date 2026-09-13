@@ -1,6 +1,6 @@
 """find abuse filter accounts on Wikimedia wikis."""
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
 __all__ = ["get_abuse_filter_accounts"]
 
 import os

@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath('../../src'))
 project = 'wikimedia-abusefilter-accounts'
 author = 'Max'
 copyright = '2026, Max'
-release = '0.1.0'
+release = '0.1.2'
 version = release
 
 extensions = [

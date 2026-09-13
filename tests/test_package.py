@@ -89,7 +89,7 @@ class PackageTests(unittest.TestCase):
         sys.path.pop(0)
 
     def test_version(self):
-        self.assertEqual(self.package.__version__, "0.1.0")
+        self.assertEqual(self.package.__version__, "0.1.2")
 
     def test_single_db_decodes_and_replaces_underscores(self):
         self.assertEqual(self.package.get_abuse_filter_accounts("enwiki"), {"enwiki": ["Alice Example", "Jean Dupont", "Fran\u00e7ois Example"]})

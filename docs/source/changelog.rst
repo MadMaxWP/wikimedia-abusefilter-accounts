@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.1.2
+-----
+
+Updated the README and documentation.
+
 0.1.0
 -----
 
