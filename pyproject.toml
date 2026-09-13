@@ -46,3 +46,8 @@ Documentation = "https://wikimedia-abusefilter-accounts.readthedocs.io/"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/abusefilter_accounts"]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/docs",
+]
