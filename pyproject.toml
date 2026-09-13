@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wikimedia-abusefilter-accounts"
+version = "0.1.0"
+description = "Find abuse filter accounts on Wikimedia wikis"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Max", email = "madmax.wp@proton.me" },
+]
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = [
+  "wikimedia",
+  "mediawiki",
+  "toolforge",
+  "abusefilter",
+  "database",
+]
+dependencies = [
+  "toolforge>=6.1",
+]
+
+[project.optional-dependencies]
+docs = [
+  "Sphinx>=7.4.7,<8",
+  "sphinx-rtd-theme>=3,<4",
+]
+
+[project.urls]
+Homepage = "https://github.com/MadMaxWP/wikimedia-abusefilter-accounts"
+Source = "https://github.com/MadMaxWP/wikimedia-abusefilter-accounts"
+Issues = "https://github.com/MadMaxWP/wikimedia-abusefilter-accounts/issues"
+Documentation = "https://wikimedia-abusefilter-accounts.readthedocs.io/"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/abusefilter_accounts"]
