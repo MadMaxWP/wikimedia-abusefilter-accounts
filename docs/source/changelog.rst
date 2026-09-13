@@ -6,4 +6,6 @@ Changelog
 
 First release.
 
-Find abuse filter accounts on one wiki, a selected set of wikis, or every open wiki. Wiki selection accepts db names, hosts, and full wiki URLs. Database results and usernames are decoded to normal strings, and underscores in usernames are returned as spaces.
+- find abuse filter accounts on one wiki, selected wikis, or all open Wikimedia wikis
+- accept wiki db names, hosts, and full wiki URLs
+- return usernames as normal strings with underscores replaced by spaces
